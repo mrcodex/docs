@@ -213,7 +213,7 @@ share the same value for a property::
     $students = [
         ['name' => 'Mark', 'grade' => 9],
         ['name' => 'Andrew', 'grade' => 10],
-        ['name' => 'Stacy' 'grade' => 10],
+        ['name' => 'Stacy', 'grade' => 10],
         ['name' => 'Barbara', 'grade' => 9]
     ];
     $collection = new Collection($students);
