@@ -34,7 +34,7 @@ A simple use of a Collection would be::
     });
 
 The :php:trait:`~Cake\\Collection\\CollectionTrait` allows you to integrate
-collection like features into any Traversable object you have in your
+collection like features into any Traversable object you \have in your
 application as well.
 
 Iterating
@@ -213,7 +213,7 @@ share the same value for a property::
     $students = [
         ['name' => 'Mark', 'grade' => 9],
         ['name' => 'Andrew', 'grade' => 10],
-        ['name' => 'Stacy' 'grade' => 10],
+        ['name' => 'Stacy', 'grade' => 10],
         ['name' => 'Barbara', 'grade' => 9]
     ];
     $collection = new Collection($students);
